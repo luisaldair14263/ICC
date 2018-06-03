@@ -11,5 +11,6 @@
             mayor = num
     print(mayor)
  else:
+ print("Invalid input")
  
   
