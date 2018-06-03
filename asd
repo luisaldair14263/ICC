@@ -19,7 +19,7 @@ for i in range(1,Cantidadn+1):
         Max=Numero
     elif(Numero<Min):
         Min=Numero
-print("El valor maximo es el numero",Max)
-print("El valor minimo es el numero",Min)
+print("El valor maximo es ",Max)
+print("El valor minimo es ",Min)
   
 
