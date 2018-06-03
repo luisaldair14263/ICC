@@ -12,7 +12,7 @@ ContadorMin=0
 Max=0
 Min=100
 Cantidadn=int(input("Cuantos numeros deseas ingresar?\n"))
-if cantidadn>0:
+if Cantidadn>0:
   for i in range(1,Cantidadn+1):
       print("Ingrese el ",i,"ªnumero")
       Numero=int(input())
