@@ -22,7 +22,7 @@
     print("el menor numero es:",menor)
     print("hay",contadormen,menor,"´s")
     print("el mayor numero es:"",mayor)
-    print("hay",contadormay,may,"´s")
+    print("hay",contadormay,mayor,"´s")
  else:
   print("Invalid input")
   
