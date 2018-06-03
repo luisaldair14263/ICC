@@ -3,18 +3,16 @@
 #CODIGO PARA HALLAR EL MAXIMO Y EL MINIMO DE LA CANTIDAD DE NUMEROS INGRESADOS  
  n=int(input())
  mayor=0  
+ menor=100
  if  0<n and n<100:
-    maximo=n #Cantidad de numeros
-    for i in range(maximo):
+    for i in range(n):
         num=int(input())
         if num > mayor:
             mayor = num
-    print(mayor)
-    for i in range(minimo):
-        num=int(input())
         if num < menor:
             menor = num
     print(menor)
+    print(mayor)
  else:
   print("Invalid input")
   
