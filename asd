@@ -20,9 +20,9 @@
         if num==menor:
           contadormen+=1
     print("el menor numero es:",menor)
+    print("hay",contadormen,menor,"´s")
     print("el mayor numero es:"",mayor)
-    print(menor)
-    print(mayor)
+    print("hay",contadormay,may,"´s")
  else:
   print("Invalid input")
   
