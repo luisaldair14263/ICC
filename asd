@@ -10,11 +10,8 @@
         if num > mayor:
             mayor = num
     print(mayor)
-    for i in range(minimo):
-        num=int(input())
-        if num  < menor:
-            menor = num
-    print(menor)       
+ elif:(num < minimo)
+    
  else:
   print("Invalid input")
   
